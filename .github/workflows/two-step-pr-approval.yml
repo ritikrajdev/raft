@@ -18,3 +18,5 @@ jobs:
       
       - name: Two stage PR review
         uses: hashicorp/two-stage-pr-approval@v0.1.0
+        with:
+          team-members: "ritikrajdev rrajdevmck"
