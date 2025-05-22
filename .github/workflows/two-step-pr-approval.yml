@@ -17,6 +17,6 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Two stage PR review
-        uses: hashicorp/two-stage-pr-approval@v0.1.0
+        uses: hashicorp/two-stage-pr-approval@fix/make-pr-ready-after-adding-label
         with:
           team-members: "ritikrajdev rrajdevmck"
